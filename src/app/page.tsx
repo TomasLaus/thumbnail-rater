@@ -28,7 +28,7 @@ export default function Home() {
         </form>
       )}
 
-      {thumbnails?.map((thumbnail) => <div key={thumbnail._id}>{thumbnail.title}</div>)}
+      {/* {thumbnails?.map((thumbnail) => <div key={thumbnail._id}>{thumbnail.title}</div>)} */}
     </main>
   );
 }
