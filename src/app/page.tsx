@@ -19,7 +19,7 @@ export default function Home() {
             const form = e.target as HTMLFormElement;
             const formData = new FormData(e.currentTarget);
             const title = formData.get('title') as string;
-            await createThumbnail({ title: title });
+            // await createThumbnail({ title: title });
             form.reset();
           }}>
           <label>Title</label>
