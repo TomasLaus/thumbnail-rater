@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export default function CreatePage() {
     const generateUploadUrl = useMutation(api.files.generateUploadUrl);
-  const saveStorageId = useMutation(api.files.saveStorageId);
+  // const saveStorageId = useMutation(api.files.saveStorageId);
   const [imageA, setImageA] = useState('');
   const [imageB, setImageB] = useState('');
 
